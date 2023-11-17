@@ -95,8 +95,6 @@
             <li class="mr-2">
                 <a href="#" class="text-gray-400 hover:text-gray-600 font-medium">Dashboard</a>
             </li>
-            <li class="text-gray-600 mr-2 font-medium">/</li>
-            <li class="text-gray-600 mr-2 font-medium">Analytics</li>
         </ul>
         <div class="mr-2 flex items-center">
             <p class="text-sm text-gray-600">{{Auth::user()->name}}</p>
