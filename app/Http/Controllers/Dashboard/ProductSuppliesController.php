@@ -46,8 +46,8 @@ class ProductSuppliesController extends Controller
             
        ]);
 
-       $sumIncomeQuantity = ProductSupplies::where('type', 'income')->sum('quantity');
-       $sumOutcomeQuantity = ProductSupplies::where('type', 'outcome')->sum('quantity');
+       $sumIncomeQuantity = ProductSupplies::where('type', 'income')->where('product_id', $request->product_id)->sum('quantity');
+       $sumOutcomeQuantity = ProductSupplies::where('type', 'outcome')->where('product_id', $request->product_id)->sum('quantity');
        $product = Product::findOrFail($request->product_id);
        $quantityUpdated = $product->update([
         'stock'=>($sumIncomeQuantity - $sumOutcomeQuantity)
@@ -76,8 +76,8 @@ class ProductSuppliesController extends Controller
             
        ]);
 
-       $sumIncomeQuantity = ProductSupplies::where('type', 'income')->sum('quantity');
-       $sumOutcomeQuantity = ProductSupplies::where('type', 'outcome')->sum('quantity');
+      $sumIncomeQuantity = ProductSupplies::where('type', 'income')->where('product_id', $request->product_id)->sum('quantity');
+       $sumOutcomeQuantity = ProductSupplies::where('type', 'outcome')->where('product_id', $request->product_id)->sum('quantity');
        $product = Product::findOrFail($request->product_id);
        $quantityUpdated = $product->update([
         'stock'=>($sumIncomeQuantity - $sumOutcomeQuantity)
