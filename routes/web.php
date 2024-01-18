@@ -30,6 +30,7 @@ Route::middleware('auth')->group(function () {
     Route::get('/ubah-barang/{id}', [ProductController::class, 'edit']);
     Route::post('/ubah-barang/{id}', [ProductController::class, 'update']);
     Route::get('/products',[ProductController::class,'getAllProducts']);
+    Route::get('/excel/products',[ProductController::class,'exportExcel']);
 
     Route::get('/supplier', [SupplierController::class,'index']);
     Route::delete('/hapus-supplier/{id}', [SupplierController::class, 'delete']);

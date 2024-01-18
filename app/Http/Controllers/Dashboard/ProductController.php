@@ -5,12 +5,13 @@ namespace App\Http\Controllers\Dashboard;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Storage;
+use Maatwebsite\Excel\Facades\Excel;
+use App\Exports\ProductExport;
 use Illuminate\Http\Request;
 use App\Models\Product;
 use App\Models\Supplier;
 use App\Models\Category;
-
-
+use Illuminate\Support\Facades\Process;
 
 class ProductController extends Controller
 {
@@ -106,5 +107,9 @@ class ProductController extends Controller
     public function getAllProducts () {
         $products = Product::all();
         return response()->json(['data' => $products], 200);
+    }
+
+    public function exportExcel () {
+        return Excel::download(new ProductExport, 'product.xlsx');
     }
 }

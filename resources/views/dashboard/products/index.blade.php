@@ -12,7 +12,8 @@
             <div class="flex justify-between">
                 <div class="text-left">
                     <h2 class="text-gray-600 font-bold">Data Barang</h2>
-                    <a href="/input-barang" class="text-sm bg-gray-700 text-white block mt-2 px-2 py-1">Input Barang</a>
+                    <a href="/input-barang" class="text-sm inline-block bg-gray-700 text-white mt-2 px-2 py-1">Input Barang</a>
+                    <a  class="text-sm bg-gray-700 text-white inline-block mt-2 px-2 py-1" href="/excel/products">Export Excel</a>
                 </div>
                 <form method="get" action="/barang" class="form">
                     <div class="flex">
