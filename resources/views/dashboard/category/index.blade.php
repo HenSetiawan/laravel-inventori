@@ -12,7 +12,8 @@
             <div class="flex justify-between">
                 <div class="text-left">
                     <h2 class="text-gray-600 font-bold">Data Kategori</h2>
-                    <a href="/input-kategori" class="text-sm bg-gray-700 text-white block mt-2 px-2 py-1">Input Kategori</a>
+                    <a href="/input-kategori" class="text-sm bg-gray-700 text-white inline-block mt-2 px-2 py-1">Input Kategori</a>
+                    <a  class="text-sm bg-gray-700 text-white inline-block mt-2 px-2 py-1" href="/excel/kategori">Export Excel</a>
                 </div>
                 <form method="get" action="/kategori" class="form">
                     <div class="flex">

@@ -38,8 +38,8 @@ Route::middleware('auth')->group(function () {
     Route::post('/input-supplier', [SupplierController::class, 'store']);
     Route::get('/ubah-supplier/{id}', [SupplierController::class, 'edit']);
     Route::post('/ubah-supplier/{id}', [SupplierController::class, 'update']);
-     Route::get('/suppliers',[SupplierController::class,'getAllSuppliers']);
-     Route::get('/excel/suppliers',[SupplierController::class,'exportExcel']);
+    Route::get('/suppliers',[SupplierController::class,'getAllSuppliers']);
+    Route::get('/excel/suppliers',[SupplierController::class,'exportExcel']);
 
     Route::get('/kategori', [CategoryController::class, 'index']);
     Route::get('/input-kategori', [CategoryController::class, 'create']);
@@ -47,6 +47,7 @@ Route::middleware('auth')->group(function () {
     Route::delete('/hapus-kategori/{id}', [CategoryController::class, 'delete']);
     Route::get('/ubah-kategori/{id}', [CategoryController::class, 'edit']);
     Route::post('/ubah-kategori/{id}', [CategoryController::class, 'update']);
+    Route::get('/excel/kategori',[CategoryController::class,'exportExcel']);
 
 
     Route::get('/admin', [UserController::class, 'admin'])->middleware('role:admin');

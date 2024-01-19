@@ -85,7 +85,7 @@ class SupplierController extends Controller
         return response()->json(['data' => $supplier], 200);
     }
 
-        public function exportExcel () {
+    public function exportExcel () {
         return Excel::download(new SupplierExport, 'suppliers.xlsx');
     }
 }
