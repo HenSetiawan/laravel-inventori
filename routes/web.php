@@ -39,6 +39,7 @@ Route::middleware('auth')->group(function () {
     Route::get('/ubah-supplier/{id}', [SupplierController::class, 'edit']);
     Route::post('/ubah-supplier/{id}', [SupplierController::class, 'update']);
      Route::get('/suppliers',[SupplierController::class,'getAllSuppliers']);
+     Route::get('/excel/suppliers',[SupplierController::class,'exportExcel']);
 
     Route::get('/kategori', [CategoryController::class, 'index']);
     Route::get('/input-kategori', [CategoryController::class, 'create']);
