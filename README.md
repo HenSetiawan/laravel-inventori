@@ -17,15 +17,21 @@ Teknologi yang digunakan
  6. Kelola Officer (CRUD)
  7. Kelola Data Admin (CRUD)
  8. Multi Role Admin dan Officer
+
+ <img src="https://raw.githubusercontent.com/HenSetiawan/simple-inventory/main/docs/login.png" width=50%>
+
+ <img src="https://raw.githubusercontent.com/HenSetiawan/simple-inventory/main/docs/dashboard.png" width=50%>
  
-![Login](/docs/login.png)
-![Dashboard](/docs/dashboard.png)
-![Data Barang](/docs/data-barang.png)
-![Kategori](/docs/kategori.png)
-![Supplier](/docs/supplier.png)
+<img src="https://github.com/HenSetiawan/simple-inventory/raw/main/docs/data-barang.png" width=50%>
 
-![Barang Masuk](/docs/barang-masuk.png)
-![Barang Keluar](/docs/barang-keluar.png)
+<img src="https://github.com/HenSetiawan/simple-inventory/raw/main/docs/kategori.png" width=50%>
 
-![Barang Petugas](/docs/data-petugas.png)
-![Barang Admin](/docs/data-admin.png)
+<img src="https://github.com/HenSetiawan/simple-inventory/raw/main/docs/supplier.png" width=50%>
+
+<img src="https://github.com/HenSetiawan/simple-inventory/raw/main/docs/barang-masuk.png" width=50%>
+
+<img src="https://github.com/HenSetiawan/simple-inventory/raw/main/docs/barang-keluar.png" width=50%>
+
+<img src="https://github.com/HenSetiawan/simple-inventory/raw/main/docs/data-petugas.png" width=50%>
+
+<img src="https://github.com/HenSetiawan/simple-inventory/raw/main/docs/data-admin.png" width=50%>
