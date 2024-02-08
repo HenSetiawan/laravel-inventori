@@ -18,6 +18,7 @@ Teknologi yang digunakan
  7. Kelola Data Admin (CRUD)
  8. Multi Role Admin dan Officer
 
+<h3>
  <img src="https://raw.githubusercontent.com/HenSetiawan/simple-inventory/main/docs/login.png" width=50%>
 
  <img src="https://raw.githubusercontent.com/HenSetiawan/simple-inventory/main/docs/dashboard.png" width=50%>
@@ -35,3 +36,4 @@ Teknologi yang digunakan
 <img src="https://github.com/HenSetiawan/simple-inventory/raw/main/docs/data-petugas.png" width=50%>
 
 <img src="https://github.com/HenSetiawan/simple-inventory/raw/main/docs/data-admin.png" width=50%>
+</h3>
