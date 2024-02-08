@@ -18,4 +18,14 @@ Teknologi yang digunakan
  7. Kelola Data Admin (CRUD)
  8. Multi Role Admin dan Officer
  
- ![Data Barang](/docs/data-barang.png)
+![Login](/docs/login.png)
+![Dashboard](/docs/dashboard.png)
+![Data Barang](/docs/data-barang.png)
+![Kategori](/docs/kategori.png)
+![Supplier](/docs/supplier.png)
+
+![Barang Masuk](/docs/barang-masuk.png)
+![Barang Keluar](/docs/barang-keluar.png)
+
+![Barang Petugas](/docs/data-petugas.png)
+![Barang Admin](/docs/data-admin.png)

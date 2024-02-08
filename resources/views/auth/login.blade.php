@@ -18,9 +18,9 @@
               class="w-10 h-10 rounded mx-auto block object-cover"
             />
             <p class="text-sm text-slate-400 mt-2 font-semibold">
-              Dashboard Kit
+              Dashboard
             </p>
-            <p class="font-bold text-xl mt-5">Log in to Dashboard Kit</p>
+            <p class="font-bold text-xl mt-5">Log in to Inventori</p>
             <p class="text-slate-400 text-xs mt-2">
               Enter your email and password below
             </p>
