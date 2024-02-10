@@ -70,6 +70,7 @@
          </a>
         </li>
 
+        
         @if(Auth::user()->role === 'admin')
         <li class="mb-1 mt-10 group">
          <a href="/petugas" class="flex items-center py-2 px-4 text-gray-300 hover:bg-gray-600 rounded-lg">
@@ -85,6 +86,13 @@
          </a>
         </li>
         @endif
+
+         <li class="mb-1 group mt-5">
+         <a href="/logout" class="flex items-center py-2 px-4 text-gray-300 hover:bg-gray-600 rounded-lg">
+            <i class="ri-logout-circle-line text-lg mr-3"></i>
+            <span class="text-sm">Logout</span>
+         </a>
+        </li>
       </ul>
    </div>
    {{-- sidebar end --}}

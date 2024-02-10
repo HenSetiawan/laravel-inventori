@@ -78,6 +78,7 @@ Route::middleware('auth')->group(function () {
     Route::get('/ubah-barang-keluar/{id}', [ProductSuppliesController::class, 'editOutcome']);
     Route::post('/ubah-barang-keluar/{id}', [ProductSuppliesController::class, 'updateOutcome']);
 
+    Route::get('/logout',[AuthController::class, 'logout']);
 });
 
 Route::middleware('guest')->group(function() {
